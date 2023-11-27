@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+main {
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: auto;
+    gap: 2rem;
+    max-width: 450px;
+    /* background-color: red; */
+}
+.app h1 {
+    font-size: 3rem;
+}
+.app h1 span {
+    color : royalblue;
+}
+#item ,#enter , textarea{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+textarea {
+    background-color: rgb(181, 200, 255);
+    display: inline-block;
+    max-width: 100%;
+    font-size: large;
+    border-radius: 10px;
+}
+
+button , .deleteBtn , .editBtn{
+    cursor: pointer;
+}
+
+.deleteBtn{
+    color: rgb(238, 30, 30);
+    margin: 8px 0px;
+}
+.editBtn {
+    margin: 8px 0;
+    color: royalblue;
+}
+#enter {
+    cursor: pointer;
+    background-color: royalblue;
+    color: #fff;
+}
+.saveBtn , .cancelBtn {
+    padding: 13px 10px;
+    background-color: royalblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin: 9px 0px;
+}
+.update__controller{
+    display: none;
+}
